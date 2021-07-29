@@ -1,0 +1,66 @@
+div.hello {
+  background-color: red;
+}
+div.goodbye {
+  background-color: blue;
+}
+html {
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+}
+header {
+  flex: 1 1 25%;
+  border-radius: .5rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header >  h1.title {
+  color: #fdfcf1;
+  font-size: 3rem;
+  text-align: center;
+}
+main {
+  flex: 1 1 65%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+main > aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  margin: .25rem;
+}
+main > aside.left {
+  flex: 1 1 15%;
+  background-color: pink;
+}
+main > aside.right {
+  flex: 1 1 15%;
+  background-color: orange;
+}
+main > section {
+  flex: 2 1 70%;
+  background-color: #fdfcf1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+ flex: 1 1 10%;
+ background-color: black;
+ border-radius: .5rem;
+ color: #fdfcf1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
